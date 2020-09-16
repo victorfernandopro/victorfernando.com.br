@@ -30,6 +30,10 @@ body {
     cursor: pointer;
 }
 
+.menu a {
+    text-decoration: none;
+}
+
 .link {
     text-align: center;
     line-height: 60px;
@@ -38,8 +42,4 @@ body {
     width: 300px;
     height: 60px;
     margin-top: 60px;
-}
-
-.link a {
-    text-decoration: none;
 }
