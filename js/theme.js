@@ -1,5 +1,5 @@
 const body = document.querySelector('body')
-const darkMode = document.querySelector('.menu--checkbox');
+const darkMode = document.querySelector('#switch-shadow');
 
 darkMode.addEventListener('change', function() {
     if(this.checked) {
