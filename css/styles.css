@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #fff;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Segoe UI, Helvetica, Arial, sans-serif;
     font-size: 18px;
 }
 
@@ -13,26 +13,8 @@ body {
     flex-direction: column;
 }
 
-.header {
-    width: 100%;
-    height: 80px;
-    background-color: #4f70cb;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    }
-
-
 .logo {
     margin-top: 60px;
-}
-
-.logo:hover {
-    -webkit-transform: scale(1.2);
-    -moz-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    -o-transform: scale(1.2);
-    transform: scale(1.2);
 }
 
 .logo img {
@@ -41,76 +23,45 @@ body {
 
 .links {
     margin-top: 60px;
+    flex-wrap: wrap;
+}
+
+
+.button {
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
-}
-
-.links a {
+    flex-direction: column;
     text-decoration: none;
-    color: #f0f9ff;
+    color: black;
+    cursor: pointer;
+    width: 300px;
+    height: 140px;
+    margin-top: 40px;
+    border-radius: 10px;
+    border: 1px solid #eaeaea;
+    padding: 0 40px 0 40px;
 }
 
-.botao {
-    cursor: pointer;
-    text-align: center;
-    line-height: 80px;
-    border-radius: 40px;
-    width: 400px;
-    height: 80px;
-    margin-top: 60px;
-    background-color: #4f70cb;
+.button:hover {
+    border: 1px solid #117fd2;
+    color: #117fd2;
+    transition-property: color, border;
+    transition-duration: 0.15s, 0.15s;
+    transition-timing-function: ease, ease;
+    transition-delay: 0s, 0s;
+    
 }
-.botao:hover {
-    background-color: rgb(62, 93, 170);
-    -webkit-transform: scale(1.2);
-    -moz-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    -o-transform: scale(1.2);
-    transform: scale(1.2);
+
+.button-title {
+    font-size: 24px;
+    font-weight: bold;
 }
-.botao:active {
-    box-shadow: none;
-    position: relative;
-    top: 3px;
-    left: 3px;
+
+.button-text {
+    margin-top: 20px;
 }
 
 .footer {
     height: 60px;
     margin-top: 60px;
 }
-
-
-/*
-.btn-teste1 {
-    -webkit-box-align: center;
-    align-items: center;
-    background-color: rgb(45, 45, 45);
-    border-radius: 2.4rem;
-    cursor: pointer;
-    display: inline-flex;
-    height: 2.4rem;
-    -webkit-box-pack: justify;
-    justify-content: space-between;
-    padding-left: 2px;
-    padding-right: 2px;
-    position: relative;
-    width: 4.8rem;
-    
-}
-
-.btn-teste2 {
-    background-color: rgb(241, 241, 241);
-    border: 2px solid rgb(24, 120, 136);
-    border-radius: 50%;
-    height: 22px;
-    position: absolute;
-    top: 1px;
-    transition: transform 0.25s ease 0s;
-    width: 22px;
-    z-index: 5;
-}
-
-*/
