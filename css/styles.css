@@ -21,7 +21,7 @@ body {
     width: 600px;
 }
 
-.links {
+.buttons {
     margin-top: 60px;
     flex-wrap: wrap;
 }
@@ -49,7 +49,6 @@ body {
     transition-duration: 0.15s, 0.15s;
     transition-timing-function: ease, ease;
     transition-delay: 0s, 0s;
-    
 }
 
 .button-title {

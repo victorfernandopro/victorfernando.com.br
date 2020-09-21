@@ -1,9 +1,8 @@
 const body = document.querySelector('body')
-const darkMode = document.querySelector('#switch-shadow');
-const texto = document.querySelector('.botao')
-const header = document.querySelector('.header')
+const toggleButton = document.querySelector('.check');
+const texto = document.querySelector('.button')
 
-darkMode.addEventListener('change', function() {
+toggleButton.addEventListener('change', function() {
     if(this.checked) {
         darkTheme()
     } else {
@@ -14,11 +13,10 @@ darkMode.addEventListener('change', function() {
 function darkTheme() {
     body.style.backgroundColor = "#000";
     texto.style.color = "#fff";
-    header.style.backgroundColor = "#fff";
 }
 
 function lightTheme() {
     body.style.backgroundColor = "#fff";
     texto.style.color = "#000";
-    header.style.backgroundColor = "#000";
 }
+
