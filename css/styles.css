@@ -26,7 +26,6 @@ body {
     flex-wrap: wrap;
 }
 
-
 .button {
     display: flex;
     justify-content: center;
@@ -43,12 +42,40 @@ body {
 }
 
 .button:hover {
-    border: 1px solid #117fd2;
-    color: #117fd2;
     transition-property: color, border;
     transition-duration: 0.15s, 0.15s;
     transition-timing-function: ease, ease;
     transition-delay: 0s, 0s;
+}
+
+.button-whatsapp:hover {
+    border: 1px solid #34af23;
+    color: #34af23;
+}
+
+.button-instagram:hover {
+    border: 1px solid #ff1981;
+    color:#ff1981;
+}
+
+.button-facebook:hover {
+    border: 1px solid #006add;
+    color:#006add;
+}
+
+.button-github:hover {
+    border: 1px solid #5c5e61;
+    color: #5c5e61;
+}
+
+.button-line-up {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-line-down {
+    display: block;
+    margin-top: 20px;
 }
 
 .button-title {
@@ -56,8 +83,13 @@ body {
     font-weight: bold;
 }
 
+.button-img {
+    width: 0px;
+}
+
 .button-text {
-    margin-top: 20px;
+    display: flex;
+    align-items: flex-end;
 }
 
 .footer {

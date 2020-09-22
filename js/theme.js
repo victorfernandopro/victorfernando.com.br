@@ -1,3 +1,4 @@
+/*
 const body = document.querySelector('body')
 const toggleButton = document.querySelector('.check');
 const texto = document.querySelector('.button')
@@ -19,4 +20,4 @@ function lightTheme() {
     body.style.backgroundColor = "#fff";
     texto.style.color = "#000";
 }
-
+*/
