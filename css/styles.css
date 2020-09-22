@@ -4,6 +4,7 @@ body {
     background-color: #fff;
     font-family: Segoe UI, Helvetica, Arial, sans-serif;
     font-size: 18px;
+    width: 100%
 }
 
 .container {
@@ -95,4 +96,24 @@ body {
 .footer {
     height: 60px;
     margin-top: 60px;
+}
+
+@media screen and (max-width: 700px) {
+    .logo img {
+        width: 300px;
+    }
+
+    .buttons {
+    margin: 0;
+    }
+    
+    .button {
+        color: black;
+        width: 200px;
+        height: 120px;
+        margin-top: 40px;
+        border: 1px solid #eaeaea;
+        padding: 0 40px 0 40px;
+    }
+    
 }
