@@ -98,7 +98,7 @@ body {
     margin-top: 60px;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (min-width: 700px) {
     .logo img {
         width: 300px;
     }
@@ -115,5 +115,24 @@ body {
         border: 1px solid #eaeaea;
         padding: 0 40px 0 40px;
     }
+
+    .button-whatsapp {
+        border: 1px solid #34af23;
+        color: #34af23;
+    }
     
+    .button-instagram {
+        border: 1px solid #ff1981;
+        color:#ff1981;
+    }
+    
+    .button-facebook {
+        border: 1px solid #006add;
+        color:#006add;
+    }
+    
+    .button-github {
+        border: 1px solid #5c5e61;
+        color: #5c5e61;
+    }
 }
