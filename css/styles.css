@@ -105,7 +105,7 @@ body {
 
     .button-line-down {
         display: block;
-        margin-top: 2px;
+        margin-top: 5px;
     }
 
     .buttons {
@@ -114,8 +114,8 @@ body {
     
     .button {
         color: black;
-        width: 160px;
-        height: 90px;
+        width: 180px;
+        height: 100px;
         margin-top: 40px;
         border: 1px solid #eaeaea;
         padding: 0 40px 0 40px;
