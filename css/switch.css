@@ -1,5 +1,10 @@
 /*
+Créditos:
 https://willianjusten.com.br/criando-um-switch-button-com-css/
+*/
+
+/*
+Script utilizado para criar um checkbox no estilo IPhone (desliza da esquerda para a direita). É utilizado em conjunto com o script theme.js para mudar o tema.
 */
 
 .switch {

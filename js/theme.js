@@ -1,11 +1,12 @@
-/*
-const body = document.querySelector('body')
+//Script para alterar o tema (dark/light)
+
+const body = document.querySelector('body');
 const toggleButton = document.querySelector('.check');
-const texto = document.querySelector('.button')
+const texto = document.querySelector('.button');
 
 toggleButton.addEventListener('change', function() {
     if(this.checked) {
-        darkTheme()
+        darkTheme();
     } else {
         lightTheme();
     }
@@ -14,10 +15,9 @@ toggleButton.addEventListener('change', function() {
 function darkTheme() {
     body.style.backgroundColor = "#000";
     texto.style.color = "#fff";
-}
+};
 
 function lightTheme() {
     body.style.backgroundColor = "#fff";
     texto.style.color = "#000";
-}
-*/
+};
