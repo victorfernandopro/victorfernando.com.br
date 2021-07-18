@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #fff;
+    background-color: #000;
     font-family: Segoe UI, Helvetica, Arial, sans-serif;
     font-size: 18px;
     width: 100%
@@ -32,7 +32,7 @@ body {
     justify-content: center;
     flex-direction: column;
     text-decoration: none;
-    color: black;
+    color: #fff;
     cursor: pointer;
     width: 300px;
     height: 140px;
@@ -44,7 +44,7 @@ body {
 
 .button:hover {
     transition-property: color, border;
-    transition-duration: 0.15s, 0.15s;
+    transition-duration: 0.20s, 0.20s;
     transition-timing-function: ease, ease;
     transition-delay: 0s, 0s;
 }
